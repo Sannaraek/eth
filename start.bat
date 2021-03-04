@@ -1,0 +1,11 @@
+setx GPU_FORCE_64BIT_PTR 0
+
+setx GPU_MAX_HEAP_SIZE 100
+
+setx GPU_USE_SYNC_OBJECTS 1
+
+setx GPU_MAX_ALLOC_PERCENT 100
+
+setx GPU_SINGLE_ALLOC_PERCENT 100
+
+nsfminer.exe -P stratum1+tcp://0x0bd1Ed7D4cE6D2588a70ded9cB08126bc7Df194C.Marshter@asia1.ethermine.org:4444 -U -R
